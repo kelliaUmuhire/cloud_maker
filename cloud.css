@@ -1,0 +1,19 @@
+#myWordCloud {
+  /* display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  gap: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  gap: 10px;
+  /* height: 400px; */
+  width: 400px;
+  margin: auto;
+  padding: 60px;
+}
+
+#myWordCloud p {
+  /* text-align: center; */
+  margin: 0;
+}
